@@ -1,0 +1,51 @@
+#######################################
+# FSM Implementation				  #
+# Copyright (c) 2012, André Kishimoto #
+#######################################
+
+[en]------------------------------
+This repository contains an example of FSM implementation in C#/XNA that I
+created for a Brazilian Portuguese lecture titled:
+"Máquina de Estados: Controlando o Jogo, do Menu à IA"
+("State Machine: Controlling the Game, from Menu to AI", presentation slides
+can be found under directory "slides")
+
+The project is actually a porting of a demo I wrote in C/Win32 API that used
+function pointers and globals instead of State and Singleton design patterns,
+but since most of my students are using C#/XNA and design patterns, I decided
+to port it to C#/XNA, with some ideas based on Mat Buckland's excellent book
+"Programming Game AI by Example" as well as GoF's "Design Patterns".
+
+There is still some code clean up to do, but at least (in my opinion) the FSM
+part is OK to go.
+C# developers will notice that I am more inclined to C++ and Java just by
+looking all the getters and setters.
+
+If you use the code presented here or create work based on it, I would be
+very happy to know about your project (also, being credited would not hurt =))
+
+- André Kishimoto (Junho/2012)
+
+[pt-br]------------------------------
+Esse repositório contém um examplo de implementação de FSM (máquina de estado)
+em C#/XNA que criei para uma palestra intitulado:
+"Máquina de Estados: Controlando o Jogo, do Menu à IA"
+(slides da apresentação podem ser encontrados no diretório "slides")
+
+O projeto na verdade é um porting de uma demo que escrevi em C/Win32 API que
+usava ponteiros de funções e globais, ao invés de padrões de projeto State e
+Singleton, mas como a maioria dos meus alunos estão usando C#/XNA e padrões de
+projetos, decidi portar para C#/XNA, com algumas idéias baseadas no excelente
+livro de Mat Buckland, "Programming Game AI by Example", assim como o "Design
+Patterns" do Gang of Four.
+
+Ainda é necessário fazer uma limpeza no código, mas pelo menos (na minha
+opinião) a parte de FSM está OK.
+Desenvolvedores C# vão reparar que sou mais inclinado a C++ e Java pelo uso
+dos getters e setters.
+
+Caso você use o código aqui apresentado ou crie algum trabalho baseado nele,
+ficarei muito feliz em conhecer seu projeto (e ser creditado também não faria
+mal a ninguém =))
+
+- André Kishimoto (Junho/2012)
